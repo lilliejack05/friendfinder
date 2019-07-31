@@ -1,0 +1,110 @@
+body {
+    font-family: 'Helvetica', Arial, Helvetica, sans-serif sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+html {
+    box-sizing: border-box;
+}
+#survey-button {
+    display: block;
+    width: fit-content;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+.form-control-file::after {
+    padding-left: 5rem;
+}
+
+#question-group {
+    margin-top: 2rem;
+}
+
+#name-input::placeholder, #photo-input::placeholder {
+    color: #AAA;
+}
+
+small {
+    color: #AAA;
+    font-size: 75%;
+    position: absolute;
+}
+
+.float-right {
+    margin-left: -6rem;
+}
+
+.slider-container {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 75%;
+    margin: 0 1rem;
+}
+
+.slider::-webkit-slider-thumb {
+    background: var(--teal);
+}
+
+.slider-label {
+    display: inline-block;
+    width: fit-content;
+}
+
+.slider-label > span {
+    margin: 0;
+}
+
+#submit {
+    display: block;
+    margin: 0 auto;
+}
+
+#friend-modal-body {
+    text-align: center;
+}
+
+#friend-modal-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#friend-modal-photo {
+    border-radius: 60%;
+    max-width: 300px;
+    max-height: 300px;
+    display: inline-block;
+}
+
+.admin-controls {
+    position: absolute;
+    bottom: 0;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #AAA
+}
+
+.admin-controls > a {
+    text-decoration: none;
+    color: #AAA;
+}
+
+.admin-controls > a:hover {
+    text-decoration: none;
+    color: #AAA;
+}
+
+#friend-result {
+    display: none;
+};

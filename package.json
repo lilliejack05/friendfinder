@@ -1,0 +1,31 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gitignore": "^0.6.0",
+    "json": "^9.0.6",
+    "materialize": "^1.0.0",
+    "node": "^12.7.0",
+    "package.json": "^2.0.1",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilliejack05/friendfinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilliejack05/friendfinder/issues"
+  },
+  "homepage": "https://github.com/lilliejack05/friendfinder#readme"
+}
