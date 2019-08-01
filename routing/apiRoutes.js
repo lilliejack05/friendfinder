@@ -1,4 +1,4 @@
-var friendArray = require('../data/friend.js');
+var friendArray = require('../app/friend.js');
 
 module.exports = function(app){
   //a GET route that displays JSON of all possible friends

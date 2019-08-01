@@ -1,6 +1,6 @@
 //friend data list
 // compare
-var friendsArray = [
+    var friendsArray = [
     {
         "name":"LaToya",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/latoya.png",
@@ -81,4 +81,5 @@ var friendsArray = [
             3
         ]
     }
-],
+]
+module.exports = friendsArray;
